@@ -160,8 +160,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>201.99996948242188</real>
-							<real>78</real>
+							<real>153</real>
+							<real>91</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -287,7 +287,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string>Gameplay</string>
+				<string></string>
 				<key>displayName</key>
 				<string>catapultarm</string>
 				<key>memberVarAssignmentName</key>
@@ -311,8 +311,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>416</real>
-							<real>192</real>
+							<real>301</real>
+							<real>193</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -402,8 +402,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>422</real>
-							<real>85</real>
+							<real>305</real>
+							<real>88</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
