@@ -23,6 +23,9 @@
     
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
+    
+    // visualize physics bodies & joints
+    _physicsNode.debugDraw = TRUE;
 }
 
 // called on every touch in this scene
