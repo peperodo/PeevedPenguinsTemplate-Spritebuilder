@@ -321,8 +321,9 @@ CCRenderState *CCRENDERSTATE_DEBUGCOLOR = nil;
 
 -(NSUInteger)hash
 {
-	NSAssert(_mainTexture, @"Attempting to cache a renderstate without a mainTexture value.");
-	
+    if (_mainTexture != nil) {
+        NSAssert(_mainTexture, @"Attempting to cache a renderstate without a mainTexture value.");
+    }
 	// Not great, but acceptable. All values are unique by pointer.
 	return ((NSUInteger)_blendMode ^ (NSUInteger)_shader ^ (NSUInteger)_mainTexture);
 }
